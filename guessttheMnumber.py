@@ -6,6 +6,7 @@ myst = random.randint(1,100)
 #print(myst)
 guess_it=0
 tries=0
+
 while guess_it != myst and tries < 7:
     guess_it = input("please try guess: ")
     if guess_it > myst:
