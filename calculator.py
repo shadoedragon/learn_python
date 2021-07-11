@@ -5,4 +5,15 @@
 str1 = input("Please imput the first number:   ")
 str2 = input("Please input the second number:   ")
 
-#use int() function, this function is to convert string to integer 
+#use int()function, this function is to convert string to integer
+x = int(str1)
+y = int(str2)
+
+#print out result
+print(x, "+", y, " = ", x+y)
+print(x, "-", y, " = ", x-y)
+print(x, "*", y, " = ", x*y)
+print(x, "**", y, " = ", x**y)
+print(x, "/", y, " = ", x/y)
+print(x, "//", y, " = ", x//y)
+print(x, "%", y, " = ", x%y)
