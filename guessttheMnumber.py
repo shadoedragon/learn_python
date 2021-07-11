@@ -6,7 +6,6 @@ myst = random.randint(1,100)
 #print(myst)
 guess_it=0
 tries=0
-
 while guess_it != myst and tries < 7:
     guess_it = input("please try guess: ")
     if guess_it > myst:
@@ -14,6 +13,8 @@ while guess_it != myst and tries < 7:
     elif guess_it < myst:
         print ("it's smaller than")
     tries = tries + 1
+    left = 7 - tries
+    print(str(left8)+ " tries left")
 if guess_it == myst:
     print("Congratulation, you've completed the guess the M. number mini game")
 else:
